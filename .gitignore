@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# SQLite database
+*.sqlite3
+*.db
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python tooling
+*.log
+*.pot
+*.pyc
+
+# Migrations / Alembic (se usar)
+alembic/versions/
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+.cache
+pytest_cache/
+
+# Uvicorn logs (caso salve logs)
+*.log
+logs/
+
+# FastAPI static files (se aplicável)
+static/
+
+# mypy
+.mypy_cache/
+
+# Pydantic compiled models (caso use)
+*.pyd
+
+# Compiled C extensions
+*.so
